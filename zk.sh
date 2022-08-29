@@ -55,7 +55,7 @@ cargo install --path .
 
 echo -e "\e[1m\e[32m5. Eksekusi... \e[0m" && sleep 1
 # Init
-bazuka init --seed '$PHARSE' --network debug --node $IP:8765
+bazuka init --seed $PHARSE --network debug --node $IP:8765
 
 bazuka node --listen 0.0.0.0:8765 --external $IP:8765 \
   --network debug --db ~/.bazuka-debug \ 
