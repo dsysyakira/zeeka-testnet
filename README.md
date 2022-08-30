@@ -36,8 +36,7 @@ Wallet zk address: 0x356839737xxxxxxxxxxxxxxxxxxxxxxxb3b1249a5b16b7f2b9cedff
 ### Hapus Node
 
 ```
-rustup self uninstall
-```
-```
+rustup self uninstall -y
 rm -rf bazuka
+rm -rf zk.sh
 ```
