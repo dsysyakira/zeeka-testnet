@@ -47,8 +47,7 @@ echo -e "\e[1m\e[32m3. Installing Rupstup... \e[0m" && sleep 1
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 echo -e "\e[1m\e[32m4. Clone Repositori... \e[0m" && sleep 1
-# download binary 
-cd $HOME
+# download binary
 git clone https://github.com/zeeka-network/bazuka && cd bazuka
 git pull origin master
 cargo install --path .
