@@ -51,7 +51,7 @@ echo -e "\e[1m\e[32m4. Clone Repositori... \e[0m" && sleep 1
 cd $HOME
 git clone https://github.com/zeeka-network/bazuka && cd bazuka
 git pull origin master
-cargo install --path $HOME/bazuka
+cargo install --path /root/bazuka
 
 echo -e "\e[1m\e[32m5. Eksekusi... \e[0m" && sleep 1
 # Init
