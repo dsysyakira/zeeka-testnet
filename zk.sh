@@ -29,6 +29,7 @@ if [ ! $IP ]; then
 	read -p "Masukan IP VPS Kalian: " IP
 	echo 'export IP='$IP >> $HOME/.bash_profile
 fi
+source $HOME/.bash_profile
 
 sleep 2
 
