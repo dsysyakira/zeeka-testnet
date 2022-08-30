@@ -20,19 +20,6 @@ echo "======================================="
 
 sleep 2
 
-# set vars
-if [ ! $PHARSE ]; then
-	read -p "Masukan Pharse Wallet Kalian: " PHARSE
-	echo 'export PHARSE='$PHARSE >> $HOME/.bash_profile
-fi
-if [ ! $IP ]; then
-	read -p "Masukan IP VPS Kalian: " IP
-	echo 'export IP='$IP >> $HOME/.bash_profile
-fi
-source $HOME/.bash_profile
-
-sleep 2
-
 echo -e "\e[1m\e[32m1. Updating packages... \e[0m" && sleep 1
 # update
 sudo apt update && sudo apt upgrade -y
@@ -51,3 +38,5 @@ echo -e "\e[1m\e[32m4. Clone Repositori... \e[0m" && sleep 1
 git clone https://github.com/zeeka-network/bazuka && cd bazuka
 git pull origin master
 cargo install --path .
+
+echo '=============== SETUP FINISHED NEXT STEP CHECK GITHUB ==================='
