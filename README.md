@@ -29,3 +29,29 @@ rustup self uninstall
 rm -rf bazuka
 ```
 
+## JIKA ERROR LAKUKAN INI
+
+hapus dulu
+```
+rm -rf bazukago
+rm -rf zk.sh
+```
+```
+sudo apt-get install gcc g++ libudev-dev pkg-config file make cmake
+```
+```
+sudo apt-get install perl yasm
+```
+```
+sudo apt-get install openssl libudev-dev file curl jq
+```
+```
+sudo apt-get install build-essential libssl-dev git libclang-dev
+```
+```
+sudo apt-get install intltool
+```
+coba gini bang baru instal lagi 
+```
+wget -O zk.sh https://raw.githubusercontent.com/bangpateng/zeeka-testnet/main/zk.sh && chmod +x zk.sh && ./zk.sh
+```
